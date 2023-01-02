@@ -1,9 +1,9 @@
 import { BookIcon } from "@sanity/icons";
 import { format, formatISO, parseISO } from "date-fns";
 import { defineArrayMember, defineField, defineType } from "sanity";
-import author from "./author";
-import blockContent from "./blockContent";
-import category from "./category";
+import author from "schemas/author";
+import blockContent from "schemas/blockContent";
+import category from "schemas/category";
 
 export default defineType({
   name: "article",
